@@ -39,13 +39,29 @@
     border-right: 1px solid red;
 }
 
+.top-box{
+    max-width: 800px;
+    min-height: 250px;
+    margin: 0 auto;
+    background-color: #b899e1;
+}
+
 /* style */
 .header {
     padding: 8px 0px;
     background-color: #ADD8E6;
 }
+
+.top {
+    padding: 30px;
+    background-color: rgb(98, 107, 239);
+}
 /* debug */
 
-.debug .nav {
+.debug .container {
     border: 2px solid black;
+}
+
+.debug .top-box{
+    border: 2px dashed black;
 }
