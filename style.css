@@ -69,6 +69,11 @@
     flex-direction: row-reverse;
 }
 
+.cube {
+    min-height: 700px;
+    background-color: salmon;
+}
+
 
 /* style */
 .header {
