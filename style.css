@@ -65,6 +65,11 @@
     display: flex;
 }
 
+.reverse .container .row{
+    flex-direction: row-reverse;
+}
+
+
 /* style */
 .header {
     padding: 8px 0px;
@@ -75,9 +80,17 @@
     padding: 30px;
     background-color: rgb(98, 107, 239);
 }
+.reverse{
+    background-color: #D3D3D3;
+}
 
 .content  {
     padding: 30px;
+}
+
+.reverse .container .row .col-40{
+    border-right: 2px dashed black;
+    border-left: none;
 }
 /* debug */
 
