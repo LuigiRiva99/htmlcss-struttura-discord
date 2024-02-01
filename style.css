@@ -5,3 +5,47 @@
     margin: 0;
 }
 
+/* layout */
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.container .nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D8A31F;
+}
+
+.nav > *{
+    padding: 5px;
+}
+
+.nav .nav__login{
+    /* align-self: flex-end; */
+    text-align: end;
+}
+
+.nav__logo, 
+.nav__login{
+    width: 20%;
+}
+
+.nav__link {
+    width: 60%;
+    text-align: center;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+
+/* style */
+.header {
+    padding: 8px 0px;
+    background-color: #ADD8E6;
+}
+/* debug */
+
+.debug .nav {
+    border: 2px solid black;
+}
