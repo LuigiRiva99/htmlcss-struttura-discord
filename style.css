@@ -5,6 +5,16 @@
     margin: 0;
 }
 
+menu,
+ul,
+ol {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+
 /* layout */
 
 .container {
@@ -33,10 +43,9 @@
 }
 
 .nav__link {
-    width: 60%;
     text-align: center;
-    border-left: 1px solid red;
-    border-right: 1px solid red;
+    display: flex;
+    gap: 16px;
 }
 
 .top-box{
@@ -57,7 +66,6 @@
 
 .col-40{
     width: 40%;
-    border-left: 2px dashed black;
     background-color: rgb(0, 174, 113);
 }
 
@@ -85,6 +93,7 @@
 .col-25{
     min-height: 350px;
     width: 25%;
+    background-color: #058b92;
 }
 
 .foot {
@@ -110,10 +119,6 @@
     padding: 30px;
 }
 
-.reverse .container .row .col-40{
-    border-right: 2px dashed black;
-    border-left: none;
-}
 
 .recursive {
     padding-top: 10px;
@@ -131,7 +136,6 @@
     background-color: yellowgreen;
     margin: 8px 0px;
     padding: 2px;
-    border: 2px dashed black;
 }
 
 
@@ -144,10 +148,28 @@
 
 .debug .col-25{
     border: 2px dashed white;
-    background-color: #20B2AA;
 }
 
 .debug .col-30{
     border-right: 2px dashed black;
     background-color:#4D4FD9;
+}
+
+.debug .nav__link {
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+}
+
+.debug .col-40 {
+    border-left: 2px dashed black;
+}
+
+.debug .reverse .container .row .col-40{
+    border-right: 2px dashed black;
+    border-left: none;
+}
+
+.debug .foot__logo, 
+.debug .foot__button{
+    border: 2px dashed black;
 }
